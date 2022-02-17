@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=DM+Serif+Display:regular,italic);
 .card{
 	overflow: hidden;
-	max-width: 320px;
+	max-width: 335px;
 	background-color: #fff;
 	border-radius: 16px;
 }

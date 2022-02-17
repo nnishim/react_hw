@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Display:regular,italic);
+.card{
+	overflow: hidden;
+	max-width: 320px;
+	background-color: #fff;
+	border-radius: 16px;
+}
+.card__text-top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.card__icon{
+	margin-left: 10px;
+}
+.card__text{
+	padding: 15px 15px 25px 15px;
+}
+.card__img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.card__title{
+	font-family: DM Serif Display;
+	font-size: 25px;
+	color: #081F32;
+}
+.card__info{
+	font-size: 16px;
+	line-height: 25px;
+	color: #6E798C;
+	font-family: Open Sans;
+	margin-bottom: 20px;
+}
+.card__cooking{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.card__span{
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 16px;
+	color: #A5ADBB;
+}
+.card__price{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.card__price-title{
+	font-family: DM Serif Display;
+	font-size: 28px;
+	color: #081F32;
+}
+.card__btn{
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 10px 40px;
+	background: #2ECC71;
+	border: 1px solid #2ECC71;
+	border-radius: 4px;
+	transition: .4s ease-in-out;
+}
+.card__btn:hover{
+	background-color: transparent;
+	color: #2ECC71;
+}
